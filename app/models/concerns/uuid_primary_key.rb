@@ -6,6 +6,7 @@ module UuidPrimaryKey
   end
 
   def generate_uuid
-    self.id = SecureRandom.uuid_v7
+    self.id = SecureRandom.uuid
+    # self.id = SecureRandom.uuid_v7
   end
 end
