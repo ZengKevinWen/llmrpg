@@ -21,7 +21,7 @@ default: &default
   <% if ENV["DB_HOST"] %>
   host: <%= ENV["DB_HOST"] %>
   username: postgres
-  password: postgres
+  password: 123456
   <% end %>
 
 
